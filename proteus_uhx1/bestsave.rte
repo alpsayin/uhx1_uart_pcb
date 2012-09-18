@@ -1,0 +1,257 @@
+ (routes 
+  (resolution mm 100000)
+  (parser
+  )
+  (parser
+  )
+  (structure_out
+   (layer TOP (type signal)
+   )
+   (layer I1 (type signal)
+   )
+   (layer I2 (type signal)
+   )
+   (layer I3 (type signal)
+   )
+   (layer I4 (type signal)
+   )
+   (layer I5 (type signal)
+   )
+   (layer I6 (type signal)
+   )
+   (layer I7 (type signal)
+   )
+   (layer I8 (type signal)
+   )
+   (layer I9 (type signal)
+   )
+   (layer I10 (type signal)
+   )
+   (layer I11 (type signal)
+   )
+   (layer I12 (type signal)
+   )
+   (layer I13 (type signal)
+   )
+   (layer I14 (type signal)
+   )
+   (layer BOT (type signal)
+   )
+  )
+  (library_out
+  (padstack $VIA_POWER
+   (shape (circ TOP 127000 0 0))
+   (shape (circ I1 127000 0 0))
+   (shape (circ I2 127000 0 0))
+   (shape (circ I3 127000 0 0))
+   (shape (circ I4 127000 0 0))
+   (shape (circ I5 127000 0 0))
+   (shape (circ I6 127000 0 0))
+   (shape (circ I7 127000 0 0))
+   (shape (circ I8 127000 0 0))
+   (shape (circ I9 127000 0 0))
+   (shape (circ I10 127000 0 0))
+   (shape (circ I11 127000 0 0))
+   (shape (circ I12 127000 0 0))
+   (shape (circ I13 127000 0 0))
+   (shape (circ I14 127000 0 0))
+   (shape (circ BOT 127000 0 0))
+  )
+  (padstack $VIA_SIGNAL
+   (shape (circ TOP 127000 0 0))
+   (shape (circ I1 127000 0 0))
+   (shape (circ I2 127000 0 0))
+   (shape (circ I3 127000 0 0))
+   (shape (circ I4 127000 0 0))
+   (shape (circ I5 127000 0 0))
+   (shape (circ I6 127000 0 0))
+   (shape (circ I7 127000 0 0))
+   (shape (circ I8 127000 0 0))
+   (shape (circ I9 127000 0 0))
+   (shape (circ I10 127000 0 0))
+   (shape (circ I11 127000 0 0))
+   (shape (circ I12 127000 0 0))
+   (shape (circ I13 127000 0 0))
+   (shape (circ I14 127000 0 0))
+   (shape (circ BOT 127000 0 0))
+  )
+  )
+  (network_out
+   (Net #00000 
+   (rule
+   )
+   (wire (path TOP 106680  635000 1714500 63500 1714500 63500 2794000
+     -2667000 2794000)
+    (connect (terminal pin UHX1_UPLEFT-0) (terminal pin TXSW-1))
+   )
+   )
+   (Net #00001 
+   (rule
+   )
+   (wire (path BOT 106680  635000 1460500 -5524500 1460500 -5524500 -381000
+     -6096000 -381000)
+    (connect (terminal pin UHX1_UPLEFT-1) (terminal pin TXE_TEST-0))
+   )
+   (wire (path TOP 106680  -7239000 -381000 -6096000 -381000)
+    (connect (terminal pin DATA-5) (terminal pin TXE_TEST-0))
+   )
+   )
+   (Net #00004 
+   (rule
+   )
+   (wire (path BOT 106680  -7366000 -2540000 -1009969 -2540000 -1009969 698500
+     635000 698500)
+    (connect (terminal pin PRG-4) (terminal pin UHX1_UPLEFT-4))
+   )
+   )
+   (Net #00007 
+   (rule
+   )
+   (wire (path TOP 106680  635000 -63500 825500 -63500 825500 -2286000
+     -7366000 -2286000)
+    (connect (terminal pin UHX1_DOWNLEFT-1) (terminal pin PRG-3))
+   )
+   )
+   (Net #00008 
+   (rule
+   )
+   (wire (path BOT 106680  2603500 -2667000 2603500 -317500 635000 -317500)
+    (connect (terminal pin RSSI-0) (terminal pin UHX1_DOWNLEFT-2))
+   )
+   )
+   (Net #00009 
+   (rule
+   )
+   (wire (path TOP 106680  635000 -571500 -485555 -571500 -485555 -127000
+     -7239000 -127000)
+    (connect (terminal pin UHX1_DOWNLEFT-3) (terminal pin DATA-4))
+   )
+   )
+   (Net #00010 
+   (rule
+   )
+   (wire (path TOP 106680  -3556000 -3670300 -3556000 -3429000 -3810000 -3429000
+     -3810000 -3187700)
+    (connect (terminal smd MICPOT-1) (terminal smd MICPOT-2))
+   )
+   (wire (path TOP 106680  635000 -2921000 -3810000 -2921000 -3810000 -3187700)
+    (connect (terminal via) (terminal smd MICPOT-2))
+   )
+   (wire (path BOT 106680  635000 -825500 635000 -2921000)
+    (connect (terminal pin UHX1_DOWNLEFT-4) (terminal via))
+   )
+   (via $VIA_SIGNAL 635000 -2921000)
+   )
+   (Net #00011 
+   (rule
+   )
+   (wire (path BOT 106680  6731000 1206500 6921500 1206500 6921500 698500
+     6731000 698500)
+    (connect (terminal pin UHX1_RIGHT-0) (terminal pin UHX1_RIGHT-2))
+   )
+   (wire (path BOT 106680  6731000 444500 6731000 190500)
+    (connect (terminal pin UHX1_RIGHT-3) (terminal pin UHX1_RIGHT-4))
+   )
+   (wire (path BOT 106680  6731000 698500 6731000 444500)
+    (connect (terminal pin UHX1_RIGHT-2) (terminal pin UHX1_RIGHT-3))
+   )
+   )
+   (Net #00012 
+   (rule
+   )
+   (wire (path TOP 106680  6731000 952500 8699500 952500)
+    (connect (terminal pin UHX1_RIGHT-1) (terminal pin ANTENNA-0))
+   )
+   )
+   (Net #00014 
+   (rule
+   )
+   (wire (path TOP 106680  -7239000 127000 -7620000 127000 -7620000 1968500
+     -3238500 1968500 -3238500 2540000 -2667000 2540000)
+    (connect (terminal pin DATA-3) (terminal pin TXSW-2))
+   )
+   )
+   (Net #00017 
+   (rule
+   )
+   (wire (path TOP 106680  -5778500 3048000 -5207000 3048000 -5207000 3429000
+     -4635500 3429000 -4635500 2933700)
+    (connect (terminal pin SPKRCAP-1) (terminal smd SPKRPOT-0))
+   )
+   )
+   (Net #00018 
+   (rule
+   )
+   (wire (path TOP 106680  -7747000 2349500 -6032500 2349500 -6032500 3048000)
+    (connect (terminal pin SPKR-1) (terminal pin SPKRCAP-0))
+   )
+   )
+   (Net #00019 
+   (rule
+   )
+   (wire (path TOP 106680  -4127500 3175000 -3527639 3175000 -3527639 3048000
+     -2667000 3048000)
+    (connect (terminal wire) (terminal pin TXSW-0))
+   )
+   (wire (path TOP 106680  -4381500 3416300 -4381500 3175000 -4127500 3175000)
+    (connect (terminal smd SPKRPOT-2) (terminal wire))
+   )
+   (wire (path TOP 106680  -4127500 3175000 -4127500 2933700)
+    (connect (terminal wire) (terminal smd SPKRPOT-1))
+    (attr fanout)
+   )
+   )
+   (Net #00020 
+   (rule
+   )
+   (wire (path TOP 106680  -7747000 -4000500 -4064000 -4000500 -4064000 -3670300)
+    (connect (terminal pin MIC-0) (terminal smd MICPOT-0))
+   )
+   )
+   (Net GND 
+   (rule
+   )
+   (wire (path TOP 106680  635000 1206500 -7239000 1206500 -7239000 889000)
+    (connect (terminal pin UHX1_UPLEFT-2) (terminal pin DATA-0))
+   )
+   (wire (path BOT 106680  -7366000 -1778000 -7556500 -1778000 -7556500 -4254500
+     -7747000 -4254500)
+    (connect (terminal pin PRG-1) (terminal pin MIC-1))
+   )
+   (wire (path BOT 106680  -7747000 2603500 -7239000 2603500 -7239000 889000)
+    (connect (terminal pin SPKR-0) (terminal pin DATA-0))
+   )
+   (wire (path BOT 106680  -7239000 635000 -7556500 635000 -7556500 -1524000
+     -7366000 -1524000)
+    (connect (terminal pin DATA-1) (terminal pin PRG-0))
+   )
+   (wire (path BOT 106680  -7366000 -1524000 -7366000 -1778000)
+    (connect (terminal pin PRG-0) (terminal pin PRG-1))
+   )
+   (wire (path BOT 106680  -7239000 889000 -7239000 635000)
+    (connect (terminal pin DATA-0) (terminal pin DATA-1))
+   )
+   )
+   (Net VCC/VDD 
+   (rule
+   )
+   (wire (path TOP 106680  6731000 -63500 3895255 -63500 3895255 952500
+     635000 952500)
+    (connect (terminal pin UHX1_RIGHT-5) (terminal pin UHX1_UPLEFT-3))
+   )
+   (wire (path TOP 106680  635000 952500 229127 952500 229127 381000
+     -7239000 381000)
+    (connect (terminal pin UHX1_UPLEFT-3) (terminal pin DATA-2))
+   )
+   (wire (path BOT 106680  -7366000 -2032000 -6477000 -2032000 -6477000 -889000)
+    (connect (terminal pin PRG-2) (terminal wire))
+   )
+   (wire (path BOT 106680  -7239000 381000 -6477000 381000 -6477000 -889000)
+    (connect (terminal pin DATA-2) (terminal wire))
+   )
+   (wire (path BOT 106680  -6477000 -889000 -6096000 -889000)
+    (connect (terminal wire) (terminal pin VCC_TEST-0))
+   )
+   )
+  )
+ )
