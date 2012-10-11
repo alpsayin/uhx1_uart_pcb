@@ -1,0 +1,16 @@
+[labels]
+AUDIO_MONO
+refdes=AUDIO?
+
+[left]
+
+
+[right]
+1 AUDIO
+3 CONTACT
+
+
+[top]
+2 GND
+
+[bottom]

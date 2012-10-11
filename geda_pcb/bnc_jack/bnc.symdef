@@ -1,0 +1,13 @@
+[labels]
+BNC_CON
+refdes=BNC?
+
+[left]
+2 GND
+1 SIGNAL
+
+[right]
+
+[top]
+
+[bottom]

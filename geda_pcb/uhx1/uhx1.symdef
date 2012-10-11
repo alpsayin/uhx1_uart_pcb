@@ -1,0 +1,28 @@
+[labels]
+Uhx1
+refdes=U?
+
+[left]
+1 TxD
+2 TxE
+3 GND
+4 Vcc_rx
+5 P3
+6 P2
+7 P1
+8 P0
+9 RSSI
+10 RxD
+11 AF_Out
+
+[right]
+12 GND_RF
+13 Antenna
+14 GND_RF
+15 GND
+16 GND
+17 Vcc_tx
+
+[top]
+
+[bottom]

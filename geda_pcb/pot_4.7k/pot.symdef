@@ -1,0 +1,14 @@
+[labels]
+TRMPOT
+refdes=POT?
+
+[left]
+
+[right]
+
+[top]
+2 MIDDLE
+
+[bottom]
+1 A
+3 B

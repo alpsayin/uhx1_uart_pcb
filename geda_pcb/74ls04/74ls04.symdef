@@ -1,0 +1,27 @@
+[labels]
+74LS04
+refdes=U?
+
+[left]
+7 GND
+6 3Y
+5 3A
+4 2Y
+3 2A
+2 1A
+1 1Y
+
+[right]
+
+14 VCC
+13 6A
+12 6Y
+11 5A
+10 5Y
+9 4A
+8 4Y
+
+[top]
+
+
+[bottom]
