@@ -1,6 +1,7 @@
 [labels]
 TRMPOT
 refdes=POT?
+footprint=pot.fp
 
 [left]
 

@@ -1,13 +1,16 @@
 [labels]
 BNC_CON
 refdes=BNC?
+footprint=bnc.fp
 
 [left]
-2 GND
-1 SIGNAL
+3 GND
+4 SIGNAL
 
 [right]
 
 [top]
 
 [bottom]
+1 NC
+2 NC

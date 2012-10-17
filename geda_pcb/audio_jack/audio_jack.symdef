@@ -1,16 +1,19 @@
 [labels]
 AUDIO_MONO
 refdes=AUDIO?
+footprint=audio.fp
 
 [left]
 
 
 [right]
-1 AUDIO
-3 CONTACT
+1 EARTH
+2 TIP
+5 FIX
 
 
 [top]
-2 GND
 
 [bottom]
+3 NC
+4 NC
