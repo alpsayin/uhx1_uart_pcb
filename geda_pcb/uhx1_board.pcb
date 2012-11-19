@@ -6,13 +6,13 @@ FileVersion[20070407]
 PCB["uhx1_board" 472441 385827]
 
 Grid[1968.0 0 0 1]
-Cursor[0 31488 0.000000]
+Cursor[0 291264 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[1000 1000 1000 1000 1500 1000]
 Flags("nameonpcb,clearnew,snappin")
 Groups("1,c:2,s:3:4:5:6:7:8")
-Styles["Signal,1500,3600,2000,1000:Power,3000,6000,3500,1000:Fat,4000,6000,3500,1000:Skinny,1000,2402,1181,600"]
+Styles["Signal,1500,3600,2500,1000:Power,3000,6000,3500,1000:Fat,4000,6000,3500,1000:Skinny,1000,2402,1181,600"]
 
 Symbol[' ' 1800]
 (
@@ -789,6 +789,8 @@ Symbol['~' 1200]
 Attribute("PCB::grid::unit" "mil")
 Via[362112 84624 3600 2000 0 2000 "" "thermal(0X)"]
 Via[391632 84624 3600 2000 0 2000 "" "thermal(0X)"]
+Via[17712 297168 6000 2000 0 3500 "" "thermal(0X)"]
+Via[17712 308976 6000 2000 0 3500 "" "thermal(1X)"]
 
 Element["" "SIP6N" "CONN_DATA" "unknown" 29520 211376 -11000 4000 1 100 ""]
 (
@@ -1113,6 +1115,8 @@ Layer(10 "silk")
 	Text[147600 322752 0 150 "KTH Royal Institute of Technology, Stockholm, Sweden" "clearline"]
 	Text[147600 310944 0 155 "Alp Sayin" "clearline"]
 	Text[23616 17712 0 330 "Radiometrix UHX1 Soundmodem/UART Interface" "clearline"]
+	Text[23616 293232 0 100 "VCC" "clearline"]
+	Text[23616 305040 0 100 "GND" "clearline"]
 )
 NetList()
 (
