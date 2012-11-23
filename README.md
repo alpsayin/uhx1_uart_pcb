@@ -8,3 +8,5 @@ In the repo, you can find the Gerber and Excellon outputs.
 These outputs are in the uhx1 - CADCAM.zip
 
 The PCB with new parts compatible with Farnell with GplEDA (geda) tools is also added in the geda_pcb directory.
+
+Alp Sayin
