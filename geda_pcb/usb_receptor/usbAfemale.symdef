@@ -1,0 +1,21 @@
+[labels]
+USB_PWR
+refdes=USB?
+footprint=usbAfemale.fp
+
+[left]
+
+[right]
+1 VCC
+
+2 D-
+
+3 D+
+
+4 GND
+
+[top]
+5 SHIELD1 
+
+[bottom]
+6 SHIELD2
